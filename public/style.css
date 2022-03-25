@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    text-align: center;
+    background-color: #847266;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.container {
+    margin-top: 10%;
+    font-family: 'Anonymous Pro', monospace;
+    color: #FFF;
+}
+
+.container p {
+    font-size: 50px;
+    margin-bottom: 2px;
+      font-family: 'Anonymous Pro', monospace;
+
+}
+
+#iurl {
+    background-color: inherit;
+    width: 100%;
+    height: 28px;
+    border: solid 1px #FFF;
+    font-family: 'Anonymous Pro', monospace;
+    color: #eee;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+    box-sizing: content-box;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+.large {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  will-change: transform;
+}
+
+.large:disabled {
+  pointer-events: none;
+}
+
+.large:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.large:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+.container a {
+    height: 20px;
+    background: inherit;
+    background-size: cover;
+    color: #ddd;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Anonymous Pro', monospace;
+
+    transition: 0.3s;
+}
+
+.container a:hover {
+    font-size: 23;
+}
+
+.url {
+    width: 300px;
+    margin: auto;
+}
