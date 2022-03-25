@@ -7,10 +7,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="shortcut icon" type="image/png" href="logo.png" />
-    <title>GOD</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <title>⠀</title>
 </head>
 
 <body>
@@ -23,15 +23,17 @@
                     if (input.value) {
                         window.location.href = '/main/' + input.value;
                     } else {
-                        alert('Please provide a link. It does not require https://');
+                        alert('link not identified');
                     }
                 }
             </script>
-            <span class="w3-xlarge">Input your URL here: </span>
+            <span class="w3-xlarge">input your url here : </span>
             <div>
                 <input class="w3-xlarge" type='text' placeholder='https://www.google.com' id='url-target'
                     onkeydown='if(event.key==="Enter") go()' />
-                <button onclick='go()' class="w3-xlarge">GOD!</button>
+              <br></br>              <center>
+              <button onclick='go()' class="large">go</button>
+                </center>
             </div>
             <br>
             <br>
