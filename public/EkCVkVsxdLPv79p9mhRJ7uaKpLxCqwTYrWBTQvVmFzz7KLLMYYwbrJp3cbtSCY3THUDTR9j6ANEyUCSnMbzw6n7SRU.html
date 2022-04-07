@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <center>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.ico" />
+    <title>fujii</title>
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <img src="logo-full.png" width="250"/>
+        <br>
+        <br>
+        <div>
+            <script>
+                function go() {
+                    var input = document.getElementById('url-target');
+                    if (input.value) {
+                        window.location.href = '/main/' + input.value;
+                    } else {
+                        alert('are u sure u entered a url? we couldnt find '+input.value);
+                    }
+                }
+            </script>
+            <span class="w3-xlarge">input your url</span>
+            <div>
+                <input class="bg-dark rounded-0 hb-border-color shadow-sm form-control form-control-lg" type='text' placeholder='https://domain.com' id='url-target'
+                    onkeydown='if(event.key==="Enter") go()'
+                    style="width: 230px;font-family: 'Montserrat Alternates', sans-serif;opacity: 0.80; height: 47px; color:rgb(255,255,255);"/>
+                <br>
+                <button onclick='go()' class="button">go</button>
+            </div>
+            <br>
+            <br>
+            </p>
+
+        </div>
+    </div>
+</center>
+  
+</body>
+</html>
+<script>
+  var newUrl = "/welcome";
+window.history.pushState('data', 'Title', newUrl);
+</script>
