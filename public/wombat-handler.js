@@ -386,4 +386,4 @@ function checkCookie() {
      }
   }
 }
-checkCookie;
+checkCookie();
